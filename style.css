@@ -2304,7 +2304,7 @@ body.memberprofile .copyrights,
 }
 
 #superslides .scrollable {
-  *zoom: 1;
+  /* *zoom:1; */
   position: relative;
   top: 0;
   left: 0;
@@ -3692,4 +3692,19 @@ body.landingpage .copyrights .footer-social i {
 
 body.landingpage .normal-header .navbar-nav > li > aÂ {
   font-weight: bold !important;
+}
+
+.container-map {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.iframe-map {
+  width: 80%;
+  height: 500px;
+  /* filter: invert(100%); */
 }
